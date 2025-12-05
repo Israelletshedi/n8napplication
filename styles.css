@@ -1,0 +1,82 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  background-color: #f4a261;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #d62828;
+  margin-bottom: 5px;
+}
+
+p.subtitle {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #1d3557;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f9fa;
+}
+
+input:focus {
+  border-color: #457b9d;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 25px;
+  background-color: #d62828;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b71c1c;
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: #888;
+  margin-top: 20px;
+}
